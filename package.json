@@ -5,17 +5,12 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export",
-    "deploy": "gh-pages -d dist -r https://github.com/sibendu/akamai2cloudfare",
-    "predeploy": "npm run build"
+    "export": "slidev export"
   },
   "dependencies": {
     "@slidev/cli": "^51.8.1",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "^0.25.0",
     "vue": "^3.5.16"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
   }
 }
